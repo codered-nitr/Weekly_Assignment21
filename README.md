@@ -1,3 +1,7 @@
+# Codered Weekly Assignment Repo
+
+Change the branch to access different week's assignments
+
 # Week - 1
 
 ## Questions
