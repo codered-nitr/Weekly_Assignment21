@@ -2,7 +2,7 @@
 
 Change the branch to access different week's assignments
 
-# Week - 1
+# Week - 2
 
 ## Questions
 1. Kadane’s Algorithm
