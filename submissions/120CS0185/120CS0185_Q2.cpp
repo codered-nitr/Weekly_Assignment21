@@ -1,4 +1,4 @@
-//
+//merge intervals (or) union of two arrays
 class Solution{
     public:
     bool binarysearch(int *a,int l,int key){
