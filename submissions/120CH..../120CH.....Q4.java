@@ -1,3 +1,4 @@
+//string rotation
 import java.util.*;
 
 class GFG {
