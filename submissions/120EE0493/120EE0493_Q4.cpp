@@ -1,3 +1,5 @@
+// String Rotation - https://www.geeksforgeeks.org/a-program-to-check-if-strings-are-rotations-of-each-other/
+
 bool string_rotation(string a, string b) {
     int n = a.size();
     if(b.size()!=n) return false;
