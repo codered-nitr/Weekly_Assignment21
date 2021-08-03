@@ -8,22 +8,23 @@ class Solution
      while (start_row < r && start_col < c) 
      {
         
-        for (int i = start_col; i < c; ++i) 
+        for (int i = start_col; i < c; i++) 
         {
             cout << a[start_row][i] << " ";
         }
         k++;
  
         
-        for (int i = start_row; i < r; ++i)
+        for (int i = start_row; i < r; i++)
         {
             cout << a[i][n - 1] << " ";
         }
         n--;
  
         
-        if (start_row < r) {
-            for (int i = c - 1; i >= start_col; --i) 
+        if (start_row < r)
+        {
+            for (int i = c - 1; i >= start_col; i--) 
             {
                 cout << a[r - 1][i] << " ";
             }
@@ -33,7 +34,7 @@ class Solution
         
         if (start_col < c)
         {
-            for (int i = r - 1; i >= start_row; --i)
+            for (int i = r - 1; i >= start_row; i--)
             {
                 cout << a[i][start_col] << " ";
             }
