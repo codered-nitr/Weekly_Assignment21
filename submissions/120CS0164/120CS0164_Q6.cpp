@@ -1,6 +1,9 @@
+
 /**Min Cost Sort
 https://binarysearch.com/problems/Minimum-Cost-Sort
 **/
+
+
 int solve(vector<int>& nums) {
     int a[nums.size()];
     int ac=0,d=0;
